@@ -1,0 +1,5 @@
+FROM llama3.2
+# Larger context window for page summaries
+PARAMETER num_ctx 32768
+# Lower temperature for more conservative sampling / less creative summaries
+PARAMETER temperature 0.25
